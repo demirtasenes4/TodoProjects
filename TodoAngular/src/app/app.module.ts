@@ -13,6 +13,7 @@ import {
   CdkDrag,
   CdkDropList,
 } from '@angular/cdk/drag-drop';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule,
     CdkDropList, 
     NgFor, 
     CdkDrag
